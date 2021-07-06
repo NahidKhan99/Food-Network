@@ -15,9 +15,11 @@ h1{
 .half-width{
     width: 50%;
     padding-left: 5%;
+    
 }
 .half-width img{
-    width: 80%;
+    width: 60%;
+    margin-left: 20px;
 }
 .link-button{
     display: inline-block;
@@ -36,18 +38,47 @@ h1{
 .about-big{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
+    
 }
 
 .center-text{
     text-align: center;
+
 }
 .recipe-items{
     width: 35%;
     margin: 4% 1%;
     padding: 20px 20px;
-    box-shadow: 10px 10px 30px rgb(29,110,110);
-    border-radius: 7px;
+    box-shadow: 10px 10px 30px rgb(34, 68, 68);
+    border-radius: 20px 30px 40px;
 }
-.first-items{
-    margin-left: 5%;
+#first-items{
+    margin-left: 6%;
+}
+#last-items{
+    margin: 6%;
+}
+#social-media{
+    width: 60%;
+    margin: 4% 20%;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 10px 15px 40px blue;
+    border-radius: 10px;
+}
+footer{
+    height: 200px;
+    text-align: center;
+   background-image: linear-gradient(black,gray);
+}
+.element{
+    padding-top: 16px;
+}
+.element h3{
+    color: white;
+    text-decoration: none;
+}
+.color-text{
+    color: yellowgreen;
 }
