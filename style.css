@@ -3,8 +3,9 @@ body{
     margin: 0;
 }
 h1{
-    font-size: 60;
+    font-size: 40px;
 }
+
 .orange-color{
     color: orangered;
 }
@@ -38,7 +39,8 @@ h1{
 .about-big{
     background-image: url(images/7.png);
     background-repeat: no-repeat;
-    
+    width: 100%;
+    background-size: cover;
 }
 
 .center-text{
