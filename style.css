@@ -13,7 +13,7 @@ h1{
     margin-bottom: 150;
 }
 .half-width{
-    width: 50%;
+    width: 70%;
     padding-left: 5%;
     
 }
@@ -52,11 +52,17 @@ h1{
     box-shadow: 10px 10px 30px rgb(34, 68, 68);
     border-radius: 20px 30px 40px;
 }
+.recipe-items img{
+    width: 90%;
+    border-radius: 10px;
+}
 #first-items{
     margin-left: 6%;
 }
+
+}
 #last-items{
-    margin: 6%;
+    margin-right: 6%;
 }
 #social-media{
     width: 60%;
